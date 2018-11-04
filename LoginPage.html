@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>LOG IN PAGE</title>
+</head>
+
+<style type="text/css">
+    body{
+        text-align:center;
+        font-family:'Times New Roman';
+        font-size:12pt;
+        line-height:1.2em;
+        margin:0;
+        padding:12px;
+        background-color:aliceblue;
+    }
+
+    h1{
+        background-color:darkred;
+        text-align:center;
+        color:white;
+        border:2px solid;
+        padding:5px;
+    }
+    
+    label{
+        display:inline-block;
+        font-family:'Times New Roman';
+        font-size:14pt;
+        color:white;
+        width:35%;
+    }
+
+    input{
+        position:center;
+        font-size:14pt;
+        margin:10px;
+        display:inline-block;
+        width:50%;
+    }
+
+    form{
+        margin-top:20px;
+        display:inline-block;
+        position:center;
+        background-color:darkred;
+        padding:5px;
+        border:1px solid;
+        width:30%;
+    }
+
+    input[type=button]
+    {
+        display:block;
+        font-size:12pt;
+        font-family:'Times New Roman';
+        background-color:aliceblue;
+        color:black;
+        text-shadow:20px;
+        padding:5px;
+        width:92%;
+        margin-top:30px;
+    }
+</style>
+    
+
+
+
+<body>
+    <h1>LOG IN WITH GOOGLE ACCOUNT</h1>
+
+    <form action="login" method="POST" class="controls">
+        <label for="username">Client ID:</label>
+        <input type="text" name="username" id="username" />
+        <label for="password">Client Secret:</label>
+        <input type="text" name="password" id="password" />
+        <input type="submit" value="LOGIN"/>
+    </form>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+
+<style type="text/css">
+    body{
+        text-align:center;
+        display:block;
+        background-color:darkred;
+    }
+    iframe{
+        margin-top:12px;
+        border:5px solid black;
+        display:inline-block;
+        width:60%;
+    }
+
+    div.scrollmenu{
+        margin-top:32px;
+        background-color:black;
+        overflow:auto;
+        white-space:nowrap;
+    }
+
+    dib.scrollmenu iframe{
+        margin-left:10px;
+        margin-right:10px;
+        display:inline-block;
+        text-align:center;
+        padding:14px;
+        max-width:200px;
+    }
+
+    div.scrollmenu iframe:hover{
+        background-color:#777;
+    }
+
+    div.menu{
+        padding:5px;
+        background-color:black;
+        font-family:'Times New Roman';
+        font-size:12pt;
+        border:5px solid red;
+    }
+    
+    div.menu button{
+        background-color:black;
+        font-family:'Times New Roman';
+        font-size:14pt;
+        color:white;
+        border:5px solid black;
+    }
+    input{
+        color:black;
+    }
+</style>
+
+
+
+<body>
+   
+    <form action="/logout" method="post" class="menu">
+         <input type="submit" value="LOGOUT"/>
+
+    </form>
+
+
+    <iframe id="ytplayer" type="text/html" width="720" height="600"
+            src="https://www.youtube.com/embed/Uo3o3Z1kYjw?ecver=2"
+            frameborder="1" allowfullscreen></iframe>
+        
+    <div class="scrollmenu">
+        <iframe id="ytplayer" type="text/html" style="width:450px;height:200px;"
+                src="https://www.youtube.com/embed/Uo3o3Z1kYjw?ecver=2"
+                frameborder="1" allowfullscreen></iframe>
+        <iframe id="ytplayer" type="text/html"style="width:450px;height:200px;"
+                src="https://www.youtube.com/embed/WkVvG4QTO9M?ecver=2"
+                frameborder="1" allowfullscreen></iframe>
+        <iframe id="ytplayer" type="text/html" style="width:450px;height:200px;"
+                src="https://www.youtube.com/embed/gasP4MEdkss?ecver=2"
+                frameborder="1" allowfullscreen></iframe>
+        <iframe id="ytplayer" type="text/html"style="width:450px;height:200px;"
+                src="https://www.youtube.com/embed/9iK2tkCODrQ?ecver=2"
+                frameborder="1" allowfullscreen></iframe>
+        <iframe id="ytplayer" type="text/html" style="width:450px;height:200px;"
+                src="https://www.youtube.com/embed/vQ9i_whg6E4?ecver=2"
+                frameborder="1" allowfullscreen></iframe>
+        <iframe id="ytplayer" type="text/html" style="width:450px;height:200px;"
+                src="https://www.youtube.com/embed/e1b3dLITdms?ecver=2"
+                frameborder="1" allowfullscreen></iframe>
+        <iframe id="ytplayer" type="text/html" style="width:450px;height:200px;"
+                src="https://www.youtube.com/embed/6vopR3ys8Kw?ecver=2" 
+                frameborder="1" allowfullscreen></iframe>
+    </div>
+
+</body>
+</html>
